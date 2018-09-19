@@ -2,7 +2,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 set background=dark
-colorscheme vimterial_dark
+colorscheme elflord
 
 " ----------------------------------------- "
 "           File Type Settings		          "
