@@ -1,6 +1,8 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+set background=dark
+colorscheme vimterial_dark
 
 "-------------------------------"
 " File Type Settings		"
@@ -29,13 +31,15 @@ set smartcase			" ... but not when search pattern contains upper case characters
 " Make Vim to handle long lines nicely.
 " set wrap
 set textwidth=79
-" set formatoptions=qrn1
+set formatoptions=qrn1
 set colorcolumn=79
+highlight ColorColumn ctermbg=235 guibg=#2c2d27
 set relativenumber
 
 set autoindent
 set smarttab
 set et
+set showmatch
 
 set tabstop=4
 set shiftwidth=4
@@ -53,4 +57,3 @@ map q: :q
 "
 let g:indentLine_setColors = 0
 let g:indentLine_char = '┆'
-

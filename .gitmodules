@@ -1,17 +1,17 @@
 [submodule "bundle/Vim-Jinja2-Syntax"]
-	path = gbundle/Vim-Jinja2-Syntax
+	path = bundle/Vim-Jinja2-Syntax
 	url = https://github.com/Glench/Vim-Jinja2-Syntax.git
 [submodule "bundle/vim-json"]
-	path = gbundle/vim-json
+	path = bundle/vim-json
 	url = https://github.com/elzr/vim-json.git
 [submodule "bundle/vim-python-pep8-indent"]
-	path = gbundle/vim-python-pep8-indent
+	path = bundle/vim-python-pep8-indent
 	url = https://github.com/hynek/vim-python-pep8-indent.git
 [submodule "bundle/vim-endwise"]
-	path = gbundle/vim-endwise
+	path = bundle/vim-endwise
 	url = https://github.com/tpope/vim-endwise.git
 [submodule "bundle/vim-material-theme"]
-	path = gbundle/vim-material-theme
+	path = bundle/vim-material-theme
 	url = https://github.com/jdkanani/vim-material-theme
 [submodule "bundle/vimterial_dark"]
 	path = bundle/vimterial_dark
