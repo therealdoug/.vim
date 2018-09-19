@@ -4,9 +4,9 @@ filetype plugin indent on
 set background=dark
 colorscheme vimterial_dark
 
-"-------------------------------"
-" File Type Settings		"
-"-------------------------------"
+" ----------------------------------------- "
+"           File Type Settings		          "
+" ----------------------------------------- "
 au BufNewFile,BufRead *.yml,*.yaml setlocal expandtab ts=2 sw=2
 au BufNewFile,BufRead *.md setlocal spell noet ts=4 sw=4
 au BufNewFile,BufRead *.json setlocal expandtab ts=2 sw=2
@@ -14,12 +14,22 @@ au BufNewFile,BufRead *.vim setlocal noet ts=4 sw=4 sts=4
 " python indent
 autocmd BufNewFile,BufRead *.py setlocal tabstop=4 softtabstop=4 shiftwidth=4 textwidth=80 smarttab expandtab
 
+" ----------------------------------------- "
+"  Control Key Remaps for use on Chromebook "
+" ----------------------------------------- "
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+
+
+" ----------------------------------------- "
+"             General Settings
+" ----------------------------------------- "
+
 " spell check for git commits
 autocmd FileType gitcommit setlocal spell
 
-"
-"General Settings
-"
 set number			" Show line numbers
 set ruler			" Show the curson position all the time
 set fileformats=unix,dos,mac	" Prefer Unix over Windows over OS 9 formats
@@ -49,7 +59,7 @@ set expandtab			" Convert tab to spaces
 map q: :q
 
 "------------------------------------------------"
-" Plugin Settings
+"               Plugin Settings                  "
 "------------------------------------------------"
 
 "
