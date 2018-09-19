@@ -1,0 +1,15 @@
+[submodule "/home/dougbyrd/.vim/bundle/Vim-Jinja2-Syntax"]
+	path = /home/dougbyrd/.vim/bundle/Vim-Jinja2-Syntax
+	url = https://github.com/Glench/Vim-Jinja2-Syntax.git
+[submodule "/home/dougbyrd/.vim/bundle/vim-json"]
+	path = /home/dougbyrd/.vim/bundle/vim-json
+	url = https://github.com/elzr/vim-json.git
+[submodule "/home/dougbyrd/.vim/bundle/vim-python-pep8-indent"]
+	path = /home/dougbyrd/.vim/bundle/vim-python-pep8-indent
+	url = https://github.com/hynek/vim-python-pep8-indent.git
+[submodule "/home/dougbyrd/.vim/bundle/vim-endwise"]
+	path = /home/dougbyrd/.vim/bundle/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "/home/dougbyrd/.vim/bundle/vim-material-theme"]
+	path = /home/dougbyrd/.vim/bundle/vim-material-theme
+	url = https://github.com/jdkanani/vim-material-theme
